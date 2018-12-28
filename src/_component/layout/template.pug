@@ -1,0 +1,31 @@
+doctype html
+html
+  block cool-config
+  head
+
+    meta(name="description" content = myDescription)
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width")
+    link(rel="stylesheet" href="/style.css")
+    title= myTitle
+  body
+   include ../header/header
+   include ../nav/nav
+
+   div(class="row")
+    div(class="leftcolumn")
+     div(class="card")
+      block awesome-content1
+     div(class="card")
+      block awesome-content2
+
+    div(class="rightcolumn")
+     div(class="card")
+      block about-us
+     div(class="card")
+      block products
+     div(class="card")
+      block contact
+
+
+   include ../footer/footer
