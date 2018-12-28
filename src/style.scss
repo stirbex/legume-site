@@ -5,7 +5,7 @@
     
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -107,6 +107,20 @@ body {
     margin-top: 18px;
   }
 
+.leftcolumni {   
+    float: left;
+    width: 15%;
+    
+  }
+
+.rightcolumni {
+    float: left;
+    width: 75%;
+    background-color: white;
+    padding-right: -90px;
+    margin-left: 190px;
+    margin-top: 18px;
+  }
 
 .row:after {
     content: "";
@@ -114,6 +128,24 @@ body {
     clear: both;
 }
 
+#centertextinfo {
+    text-align: left;
+    font-size: 25px;
+    margin-top: -20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lineheight {
+    line-height: 50px;
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+}
+
+#intrebari {
+    font-size: 25px;
+
+}
 .footer {
     padding: 20px;
     text-align: center;
@@ -128,6 +160,7 @@ body {
 #italiccontact {
     font-family: monospace;
 }
+
 
 .cautare {
     margin-top: 10px;
