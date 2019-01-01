@@ -14,7 +14,7 @@
   "//": "CUSTOM CONFIGURATION",
   "config": {
     "customUrl": "http://pug-starter.codetap.io",
-    "githubUrl": "https://stirbex.github.io/legume-site/",
+    "githubUrl": "https://github.com/stirbex/legume-site",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",
